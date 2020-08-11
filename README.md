@@ -1,24 +1,13 @@
 # mimall
 
-## Project setup
+## 使用
 ```
-npm install
+Vue
+VueRouter
+Vuex
+Axios
+ElementUI
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 项目内容
+高仿实现了小米商城的主要页面，包括：首页、登录页、产品页、详情页、购物车、订单列表、订单确认、支付页。
+实现了小米商城的基本功能，用户登录，浏览商品，下单购买
