@@ -12,10 +12,10 @@
                         <a href="javascript:;" class="active">帐号登录</a><span></span><a href="javascript:;">扫码登录</a>
                     </h3>
                     <div class="input" @keyup.enter="login">
-                        <input type="text" v-model="username" placeholder="邮箱/手机号码/小米ID">
+                        <input type="text" v-model="username" placeholder="默认账号：admin">
                     </div>
                     <div class="input" @keyup.enter="login">
-                        <input type="password" v-model="password" placeholder="密码">
+                        <input type="password" v-model="password" placeholder="默认密码：admin">
                     </div>
                     <a href="javascript:;" class="btn btn-large" @click="login" @keyup.enter="login">登录</a>
                     <div class="other-panel">
